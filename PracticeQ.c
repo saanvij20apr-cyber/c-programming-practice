@@ -1,23 +1,23 @@
 // Practice Qs 59
 // Make a structure to store bank account information of a customer of ABC Bank. Also, make an alias for it.
 
-#include<stdio.h>
-#include<string.h>
+// #include<stdio.h>
+// #include<string.h>
 
-typedef struct BankAccount {
-    int accountNo;
-    char name[100];
-} acc;
+// typedef struct BankAccount {
+//     int accountNo;
+//     char name[100];
+// } acc;
 
-int main() {
-    acc acc1 = {123, "saanvi"};
-    acc acc2 = {124, "jahnavi"};
-    acc acc3 = {125, "yuktha"};
+// int main() {
+//     acc acc1 = {123, "saanvi"};
+//     acc acc2 = {124, "jahnavi"};
+//     acc acc3 = {125, "yuktha"};
 
-    printf("acc no = %d\n", acc1.accountNo);
-    printf("name = %s\n", acc1.name);
-    return 0;
-}
+//     printf("acc no = %d\n", acc1.accountNo);
+//     printf("name = %s\n", acc1.name);
+//     return 0;
+// }
 
 // x-------------------------------------------------------x
 
