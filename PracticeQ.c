@@ -1,3 +1,57 @@
+// Practice Qs 62
+// Make a program to write all the odd numbers from 1 to n in a file.
+
+// #include<stdio.h>
+
+// int main() {
+//     FILE *fptr;
+//     fptr = fopen("Test.txt", "w");
+
+//     int n;
+//     printf("enter n: ");
+//     scanf("%d", &n);
+
+//     for(int i = 1; i <= n; i++) {
+//         if(i % 2 != 0) {
+//             fprintf(fptr, "%d\n", i);
+//         }
+//     }
+
+//     fclose(fptr);
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+
+// Practice Qs 61
+// Make a program to input student information from a user and enter it into a file.
+
+// #include<stdio.h>
+
+// int main() {
+//     FILE *fptr;
+//     fptr = fopen("Test.txt", "w");
+
+//     char name[100];
+//     int age;
+//     float cgpa;
+//     printf("enter name: ");
+//     scanf("%s", &name);
+//     printf("enter age: ");
+//     scanf("%d", &age);
+//     printf("enter cgpa: ");
+//     scanf("%f", &cgpa);
+
+//     fprintf(fptr, "%s\t", name);
+//     fprintf(fptr, "%d\t", age);
+//     fprintf(fptr, "%f\t", cgpa);
+
+//     fclose(fptr);
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+
 // Practice Qs 60
 // Make a program to read 5 integers from a file.
 
