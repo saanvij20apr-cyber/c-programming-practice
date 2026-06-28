@@ -1,3 +1,27 @@
+// Practice Qs 63
+// 2 numbers - a & b, are written in a file. Write a program to replace them with their sum.
+// The two numbers are to bee written and saved befpre hand in Test.txt (2 3 overwrites 5)
+
+// #include<stdio.h>
+
+// int main() {
+//     FILE *fptr;
+//     fptr = fopen("Test.txt", "r");
+
+//     int a;
+//     fscanf(fptr, "%d", &a);
+//     int b;
+//     fscanf(fptr, "%d", &b);
+//     fclose(fptr);
+
+//     fptr = fopen("Test.txt", "w");
+//     fprintf(fptr, "%d", a + b);
+//     fclose(fptr);
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+
 // Practice Qs 62
 // Make a program to write all the odd numbers from 1 to n in a file.
 
